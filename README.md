@@ -120,3 +120,16 @@ def selu_variation(x, lambda_=1.0507, alpha=1.67326, beta=1.0, gamma=0.1, omega=
 ## Customization
 
 You can adjust the SELU Variation activation function parameters (`lambda`, `alpha`, `beta`, `gamma`, `omega`) to fine-tune its behavior for your specific tasks.
+
+## Citation
+
+If you use SELUVariation in your research, please cite the following work:
+
+```bibtex
+@misc{SELUVariation-2024,
+  author = {Aakash Apoorv},
+  title = {SELUVariation},
+  year = {2024},
+  howpublished = {\url{https://github.com/ToyMath/SELUVariation}},
+}
+```
